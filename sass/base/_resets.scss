@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: $titre-font;
+}
+p, a {
+    font-family: $text-font;
+}
