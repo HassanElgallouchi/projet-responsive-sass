@@ -18,3 +18,14 @@ h1, h2, h3 {
 p, a {
     font-family: $text-font;
 }
+@media screen and (min-width: 375px) {
+    .container {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        width: 80%;
+    }
+}
